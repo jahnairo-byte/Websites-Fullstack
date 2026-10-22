@@ -1,3 +1,4 @@
 # Websites-Fullstack
 
-Al mijn Websites voor Ma-Fullstack.
+Al mijn Websites en js scripts voor Ma-Fullstack.
+
