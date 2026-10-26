@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eerste Script</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/addons/p5.sound.min.js"></script>
+</head>
+<body>
+<p>Eerste Js Script</p>
+<script>
+function setup() {
+    // Creates a canvas 600 pixels wide
+    //and 400 pixels high.
+  createCanvas(600, 400);
+}
+function draw() {
+  background(135, 206, 235);
+
+/// sun
+fill("yellow");
+
+stroke("orange");
+
+strokeWeight(20);
+
+circle(550, 50, 100);
+
+///rectangle
+
+stroke(0);
+
+strokeWeight(1);
+
+fill("green");
+
+rect(0, 200, 600, 200);
+
+/// emoji's
+/// scooter moves by following the X and Y-axis of the mouse.
+textSize(75)
+text("🏢",400,230)
+text("🏤",100,230)
+text("🛴", mouseX, mouseY)
+}    
+</script>
+</body>
+</html>
