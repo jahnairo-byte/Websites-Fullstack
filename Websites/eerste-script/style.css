@@ -1,0 +1,23 @@
+/* CSS RESET */
+*,
+*::before,
+*::after {
+margin: 0; /* de ruimte buiten het HTML-element is 0 */
+padding: 0; /* de ruimte binnen het HTML-element is 0 */
+box-sizing: border-box; /* de afmeting van het HTML-element is inclussief de padding en de border */
+
+body {
+  background-color: #99ddb1;
+  font-family: Agency FB, sans-serif;
+}
+
+main{
+    display: flex; /* de secties worden naast elkaar weergegeven */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section {
+    padding-bottom: 10%;
+}
+}
